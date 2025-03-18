@@ -1,0 +1,155 @@
+/* body{
+    height: 800px;
+
+} */
+  .header {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(66, 65, 65, 0.522);
+    /* position: fixed; */
+    z-index: 10;
+ }
+  .transtationAndIcons {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  }
+  .translation {
+    display: flex;
+    gap: 3px;
+    margin-left: 80px;
+    margin-top: 1%;
+  }
+  .icons {
+    display: flex;
+    gap: 5px;
+    margin-right: 80px;
+    margin-top: 1%;
+    color:black;
+    cursor: pointer;
+  }
+  .iconStyle {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ar {
+    text-decoration: none;
+    color: black;
+  }
+  .hr {
+    width: 89%;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    color: black;
+  }
+  
+  .mainHeader {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 95%;
+    padding: 0 15px;
+    gap: 15px;
+    opacity: 0;
+    transform: translateY(50px); /* يبدأ العنصر تحت مكانه الطبيعي */
+    animation: slideUpHeader 1s ease-in-out forwards;
+
+  }
+  @keyframes slideUpHeader {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+  .mainHeader .d-flex {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .logoImage {
+    max-width: 140px;
+  }
+  .links {
+    color:black;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .links:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    transition: 1s;
+  }
+
+  .paragraph1 {
+    font-size: 65px;
+    font-weight: bold;
+  }
+  
+
+  .btn2 {
+    width: 110px;
+    height: 40px;
+    background-color: #189cce;
+    color: white;
+    border: none;
+    border-radius: 33px;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 7%;
+  }
+  .btn2:hover{
+    background-color: #0f6281;
+
+  }
+  
+
+  @media only screen and (max-width: 990px) {
+
+   
+      .links-container {
+        direction: rtl;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: flex-start;
+      }
+      .links {
+        margin-bottom: 50px;
+      }
+      .logo-section{
+        margin-top: -22px;  
+      }
+      .header {
+        height: 115px;
+      }
+
+  }
+  @media only screen and (max-width: 840px) {
+    .header{
+      height: 120px;
+    }
+  
+      
+  }
+  @media only screen and (max-width: 440px) {
+    .links {
+      font-size: 13px;
+      margin-top: 8%;
+      font-weight: bold;
+    }
+  }
+ 
+ 
+  
