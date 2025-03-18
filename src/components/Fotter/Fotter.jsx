@@ -7,12 +7,14 @@ import { IoIosArrowBack } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { FaMapMarkerAlt } from "react-icons/fa";
-
+      
 
 
 export default function Footer() {
-  return (
+  return (  
     <>
+
+    
       <footer className="footer">
         <div className="footerContent">
           <div className="footerSection">
