@@ -31,17 +31,10 @@
   .floating-button.whatsapp {
     background-color: rgb(42, 40, 40);
   }
-  /* .floating-button.whatsapp:hover {
-    background-color: white;
-
-  }
-   */
-  .floating-button.map {
+   .floating-button.call {
     background-color: rgb(42, 40, 40);
-
   }
-  
-  .floating-button.call {
+  .floating-button.map {
     background-color: rgb(42, 40, 40);
   }
   

@@ -82,6 +82,9 @@
     margin-top: 3%;
   }
   .para2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: justify;
     font-size: 20px;
     font-weight: 600;
@@ -258,7 +261,34 @@
   font-weight: bold;
   margin-top: 10px;
 }
+/* ////////////////////////////////////// */
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #484545;
+  padding: 10px 0;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
 
+.marquee {
+  display: flex;
+  gap: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e3e3e3;
+  animation: marquee-scroll 20s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+/* ////////////////////////////////////////// */
 
 @media only screen and (max-width: 990px) {
 
@@ -413,5 +443,9 @@
   }
   .para11{
       font-size: 11px;
+  }
+  .infoSection1{
+ 
+    margin-left: 10%;
   }
 }

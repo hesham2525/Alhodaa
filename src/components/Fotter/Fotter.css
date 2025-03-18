@@ -1,9 +1,8 @@
 .footer{
     margin-top:5%;
     width: 100%;
-    height: 400px;
-    background-color: #004b73;
-    color: #ffffff; 
+    background-color: #2C3E50;
+    color: #FFFFFF; 
   }
   /* Footer Container */
 .footer {
@@ -24,7 +23,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(103, 215, 240);
   }
   .iconStyle2{
     background-color: rgb(222, 231, 234);
@@ -43,7 +41,7 @@
     font-weight: bold;
     margin-bottom: 15px;
     padding-bottom: 5px;
-    border-bottom: 1px solid rgb(202, 202, 245);
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
   
   .contactDetails li,
@@ -81,11 +79,9 @@
   .footerBottom {
     margin-top: 30px;
     border-top: 1px solid #ffffff;
-    padding-top: 15px;
     display: flex;
     justify-content: center;
     font-size: 14px;
-    flex-wrap: wrap; 
   }
   
 
