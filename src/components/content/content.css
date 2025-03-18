@@ -139,7 +139,6 @@
   }
   .imgCity {
     box-shadow: 0px 5px 5px rgba(58, 138, 224, 0.5);
-  
     border-radius: 25px;
     box-shadow: 5px;
     opacity: 1;
@@ -316,7 +315,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 .secSlider{
   display: flex;
@@ -353,7 +351,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
   }
   .paraWhy{
     font-size: 25px;
@@ -447,5 +444,21 @@
   .infoSection1{
  
     margin-left: 10%;
+  }
+  .citiesImages{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  .imgCity {
+    box-shadow: 0px 5px 5px rgba(58, 138, 224, 0.5);
+    border-radius:50px;
+
+    box-shadow: 5px;
+    width: 150px;
+    height: 90px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
   }
 }
