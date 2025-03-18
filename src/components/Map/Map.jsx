@@ -12,7 +12,7 @@ const customIcon = new L.Icon({
   shadowSize: [41, 41],
 });
 
-const position = [24.6373, 46.6980]; // إحداثيات طيف المصانع - الرياض
+const position = [24.5761986, 46.7343566];
 
 function LeafletMap() {
   return (
