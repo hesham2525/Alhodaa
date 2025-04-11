@@ -25,12 +25,12 @@ export default function Content() {
     [
       { id: 5, name: " غرف نوم وطني  ", img: "/نوم وطني 1.jpg" },
       { id: 4, name: "   غرف نوم تفصيل ", img: "/نوم تفصيل1.jpg" },
-      { id: 2, name: " كنب ", img: "/كنب1.jpg" },
+      { id: 2, name: " كنب ", img: "/كنببب5.jpg" },
       { id: 3, name: " مطابخ", img: "/مطابخ1.jpg" },
     ],
     [
       { id: 1, name: " مطابخ حديثة", img: "/مطابخ2.jpg" },
-      { id: 2, name: " L كنب حرف ", img: "/كنب حرف L 2.jpg" },
+      { id: 2, name: " L كنب حرف ", img: "/L3.jpg" },
       { id: 4, name: " كنب مودرن   ", img: "/كنب مودرن.jpg" },
       { id: 3, name: " غرف نوم تفصيل  ", img: "/نوم تفصيل 2.jpg" },
     ],
@@ -47,14 +47,14 @@ export default function Content() {
   ];
   const imagesRommWatany = [
     "/نوم وطني 1.jpg",
-    "/نوم وطني 2.jpg",
+    "/وطني13.jpg",
     "/نوم وطني 3.jpg",
     "/نوم وطني 4.jpg",
     "/نوم وطني 5.jpg",
     "/ننوم وطني 6.jpg",
     "/نوم وطني7.jpg",
-    "/نوم وطني 8.jpg",
-    "/نوم وطني 9.jpg",
+    "/وطني11.jpg",
+    "/وطني12.jpg",
     "/نوم وطني 10.jpg",
   ];
   const imagesRoomTafsel = [
@@ -108,12 +108,12 @@ export default function Content() {
   const imagesData711 = [
     "/كنببب1.jpg",
     "/كنببب2.jpg",
+    "/كنببب7.jpg",
     "/كنببب3.jpg",
-    "/كنببب4.jpg",
     "/كنببب5.jpg",
     "/كنببب6.jpg",
-    "/كنببب7.jpg",
     "/كنبب8.jpg",
+    "/كنببب7.jpg",
     "/كنببب9.jpg",
     "/كنبب10.jpg",
   ];
@@ -340,7 +340,7 @@ export default function Content() {
         <p className="para1"> كنب مودرن </p>
         <p className="para1"> </p>
 
-        <div className="secSlider">
+        <div className="secSlider" >
           <div>
             <ImageSlider3 images={imagesDataModern} />
           </div>

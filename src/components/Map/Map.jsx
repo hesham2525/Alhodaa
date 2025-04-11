@@ -12,7 +12,7 @@ const customIcon = new L.Icon({
   shadowSize: [41, 41],
 });
 
-const position = [24.5761986, 46.7343566];
+const position = [24.5761986, 46.7343567];
 
 function LeafletMap() {
   return (

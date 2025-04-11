@@ -117,7 +117,7 @@ export default function Footer() {
         </div>
 
         <div className="footerBottom">
-          <a style={{color:"white" , fontSize:"25px"}} href="https://wa.me/+201069514877"><p>صنع بواسطة م / هشام عبد الناصر </p></a>
+          <a style={{color:"white" , fontSize:"20px"}} href="https://wa.me/+201069514877"><p> م / هشام عبد الناصر </p></a>
         </div>
       </footer>
     </>
