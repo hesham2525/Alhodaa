@@ -46,15 +46,20 @@ export default function Content() {
     ],
   ];
   const imagesRommWatany = [
+    "/ww1.jpg",
     "/نوم وطني 1.jpg",
     "/وطني13.jpg",
     "/نوم وطني 3.jpg",
     "/نوم وطني 4.jpg",
     "/نوم وطني 5.jpg",
+    "/ww3.jpg",
     "/ننوم وطني 6.jpg",
+    "/ww4.jpg",
     "/نوم وطني7.jpg",
     "/وطني11.jpg",
+    "/ww2.jpg",
     "/وطني12.jpg",
+    "/ww5.jpg",
     "/نوم وطني 10.jpg",
   ];
   const imagesRoomTafsel = [
@@ -81,11 +86,12 @@ export default function Content() {
     "/مودرن10.jpg",
   ];
   const imagesDataLU = [
-    "/L2.jpg",
+    "/ll1.jpg",
     "/U1.jpg",
+    "/ll2.jpg",
     "/L5.jpg",
     "/U2.jpg",
-    "/L3.jpg",
+    "/ll3.jpg",
     "/U3.jpg",
     "/L4.jpg",
     "/U4.jpg",
@@ -340,7 +346,7 @@ export default function Content() {
         <p className="para1"> كنب مودرن </p>
         <p className="para1"> </p>
 
-        <div className="secSlider" >
+        <div className="secSlider">
           <div>
             <ImageSlider3 images={imagesDataModern} />
           </div>
@@ -415,7 +421,7 @@ export default function Content() {
             <p className="sideP">انتريه سبع أشخاص ٤ قطع</p>
             <p className="sideP2">✔ اسفنج كثافه عاليه</p>
             <p className="sideP2">
-              ✔   كنب حرف يو مقاس ٥في٤ يتكون من ١٠قطع ١٤متر
+              ✔ كنب حرف يو مقاس ٥في٤ يتكون من ١٠قطع ١٤متر
             </p>
             <p className="sideP2">
               ✔ خامات عالية الجودة تضمن المتانة والاستدامة
@@ -452,14 +458,10 @@ export default function Content() {
             </p>
             <p className="sideP">
               يوجد لدينا تشكيلة من الغرف الجديده{" "}
-              <strong  > كنب 7 نفر , كنب 11 نفر  </strong>
+              <strong> كنب 7 نفر , كنب 11 نفر </strong>
               جاهزه وتفصيل من المصنع .
             </p>
-            <p className="sideP">
-              كنب مودرن 11 نفر 
-            و  كنب مودرن 7 نفر 
-
-            </p>
+            <p className="sideP">كنب مودرن 11 نفر و كنب مودرن 7 نفر</p>
             <p className="sideP2">
               ✔ تصاميم فريدة تناسب جميع الأذواق والمساحات.
             </p>
@@ -528,7 +530,7 @@ export default function Content() {
           <p className="sideP2">مطابخ معدلة حسب مقاسات المطبخ</p>
           <p className="sideP2">✔ تصاميم فريدة تناسب جميع الأذواق والمساحات</p>
           <p className="sideP2">
-            يوجد جميع انواع الرخام الطبيعي والجلاكسي الصناعي 
+            يوجد جميع انواع الرخام الطبيعي والجلاكسي الصناعي
           </p>
           <p className="sideP2">✔ خدمة التوصيل والتركيب لجميع مناطق الرياض</p>
           <p className="sideP3">
